@@ -1,0 +1,13 @@
+{
+  "name": "background-job-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "inngest:dev": "npx inngest-cli@latest dev -u http://localhost:3000/api/inngest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "inngest": "^3.22.12"
+  }
+}
